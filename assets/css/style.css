@@ -1,0 +1,123 @@
+.row{
+    border: 10px;
+}
+
+
+body{
+    background-image: url(../img/sayagata-400px.png);
+}
+
+.page-wrapper {
+    min-height: calc( 100vh - 70px );
+}
+
+.page-header{
+    border-bottom: 3px solid gray;
+}
+
+.about, 
+.contact,
+.connect .panel {
+    border: 3px solid gray;
+}
+
+.connect .panel, 
+.connect .panel-heading {
+    background: none;
+
+ 
+}
+
+.connect .panel-heading {
+    border-bottom: 3px solid gray;
+    margin: 10px;
+    text-align: center;
+}
+
+.connect .panel-body{
+    text-align: center;
+
+}
+
+.logo .navbar-brand{
+    background: gray;
+    color: black;
+    height: 75px;
+    line-height: 45px;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.logo .navbar-brand:hover { 
+    background-color: gray;
+    color: black;
+}
+
+.links{
+    margin: 22.5px -15px;
+}
+
+.links li{
+    border-left:2px solid black;
+
+}
+
+.links li a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.links li:first-of-type{
+    border:0;
+}
+
+
+
+.header .container{
+    padding-top: 20px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    line-height: 60px;
+    background-color: gray;
+    text-align: center;
+    border-top:10px solid teal;
+
+}
+
+.footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.contact{
+    padding: 10px;
+}
+
+.contact .btn-default {
+    background: teal;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header .links {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+
+    .header .links li {
+        border: 0;
+    }
+}
